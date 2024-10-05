@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pronote V2 - Connexion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo Pronote V2" class="logo">
+        <h1>Pronote V2</h1>
+        <p>Bonjour, élèves de 3e4 du collège Paul Gauguin ! Bienvenue sur Pronote V2.</p>
+    </header>
+
+    <section class="login-form">
+        <h2>Connexion</h2>
+        <form id="loginForm">
+            <label for="username">Nom d'utilisateur :</label>
+            <input type="text" id="username" required>
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" required>
+            <button type="submit">Se connecter</button>
+        </form>
+        <p>Pas encore inscrit ? <a href="signup.html">Créez un compte</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pronote V2</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrateur - Ajouter des devoirs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo Pronote V2" class="logo">
+        <h1>Administrateur - Ajouter des devoirs</h1>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Devoirs</a></li>
+                <li><a href="admin.html">Ajouter des devoirs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="add-devoir">
+        <h2>Ajouter un devoir</h2>
+        <form id="addDevoirForm">
+            <label for="matiere">Matière :</label>
+            <select id="matiere" required>
+                <option value="francais">Français</option>
+                <option value="maths">Mathématiques</option>
+                <option value="histoire">Histoire-géographie</option>
+                <option value="svt">Sciences de la Vie et de la Terre</option>
+                <option value="physique">Physique-chimie</option>
+                <option value="technologie">Technologie</option>
+                <option value="arts">Arts plastiques</option>
+                <option value="musique">Éducation musicale</option>
+                <option value="grec">Grec</option>
+                <option value="espagnol">Espagnol</option>
+                <option value="allemand">Allemand</option>
+            </select>
+            <label for="devoir">Description du devoir :</label>
+            <textarea id="devoir" rows="4" required></textarea>
+            <button type="submit">Ajouter</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pronote V2</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

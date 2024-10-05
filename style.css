@@ -1,0 +1,58 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7d4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #27ae60;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    width: 80px;
+    height: 80px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Formulaires */
+form {
+    max-width: 300px
